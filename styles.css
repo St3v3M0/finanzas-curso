@@ -1,0 +1,112 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+#course-intro, #special-offer, #course-details {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 10%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#course-intro h2, #special-offer h2, #course-details h2 {
+    text-align: center;
+    color: #333;
+}
+
+#course-intro p, #course-details p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+#course-intro ul {
+    list-style: none;
+    padding: 0;
+}
+
+#course-intro ul li {
+    background: url('checkmark.png') no-repeat left center;
+    background-size: 20px;
+    padding-left: 30px;
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+#special-offer .offer-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#special-offer .offer-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#special-offer .price {
+    text-align: center;
+    font-size: 2em;
+    color: #e74c3c;
+}
+
+#special-offer .price span {
+    font-size: 2.5em;
+}
+
+#special-offer button {
+    display: block;
+    width: 100%;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 8px;
+}
+
+#special-offer button:hover {
+    background: #c0392b;
+}
+
+#course-details .module {
+    margin: 20px 0;
+}
+
+#course-details .module h3 {
+    color: #333;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
